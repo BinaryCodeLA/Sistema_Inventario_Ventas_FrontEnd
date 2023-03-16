@@ -4,7 +4,7 @@
             <div class="form-group"><label for="supplier_name" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Nom du fournisseur
+                            Nombre del proveedor
                         </font>
                     </font>
                     <i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
@@ -12,21 +12,21 @@
                 </label>
                 <div class="col-sm-8">
                     <input value="{{model.supplier_name}}" type="text" name="supplier_name" id="supplier_name"
-                        [(ngModel)]="model.supplier_name" placeholder="Nom du fournisseur" class="form-control">
+                        [(ngModel)]="model.supplier_name" placeholder="Nombre del proveedor" class="form-control">
                     <!---->
                 </div>
             </div>
             <div class="form-group"><label for="supplier_phone" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Téléphone du fournisseur
+                            Teléfono del proveedor
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
                 </label>
                 <div class="col-sm-8">
                     <input value="{{model.supplier_phone}}" [(ngModel)]="model.supplier_phone" type="tel"
-                        name="supplier_phone" id="supplier_phone" placeholder="Téléphone du fournisseur"
+                        name="supplier_phone" id="supplier_phone" placeholder="Teléfono del proveedor"
                         class="form-control">
                     <!---->
                 </div>
@@ -34,14 +34,14 @@
             <div class="form-group"><label for="supplier_email" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Email du fournisseur
+                            Correo del proveedor
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
                 </label>
                 <div class="col-sm-8">
                     <input value="{{model.supplier_email}}" [(ngModel)]="model.supplier_email" type="email"
-                        name="supplier_email" id="supplier_email" placeholder="Email du fournisseur"
+                        name="supplier_email" id="supplier_email" placeholder="Correo del proveedor"
                         class="form-control">
                     <!---->
                 </div>
@@ -49,14 +49,14 @@
             <div class="form-group"><label for="supplier_company" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Entreprise fournisseur
+                            Empresa proveedora
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
                 </label>
                 <div class="col-sm-8">
                     <input value="{{model.supplier_company}}" [(ngModel)]="model.supplier_company" type="text"
-                        name="supplier_company" id="supplier_company" placeholder="Entreprise fournisseur"
+                        name="supplier_company" id="supplier_company" placeholder="Empresa proveedora"
                         class="form-control">
                     <!---->
                 </div>
@@ -66,7 +66,7 @@
             <div class="form-group"><label for="status_id" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Statut
+                            Estado
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
@@ -76,17 +76,17 @@
                         class="form-control">
                         <option value="">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Sélectionnez le statut</font>
+                                <font style="vertical-align: inherit;">Seleccione el estado</font>
                             </font>
                         </option>
                         <option value="0">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Inactif</font>
+                                <font style="vertical-align: inherit;">Inactivo</font>
                             </font>
                         </option>
                         <option value="1">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">actif</font>
+                                <font style="vertical-align: inherit;">Activo</font>
                             </font>
                         </option>
                     </select>
@@ -96,26 +96,26 @@
             <div class="form-group"><label for="supplier_address" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Adresse du fournisseur
+                            Dirección del proveedor
                         </font>
                     </font>
                 </label>
                 <div class="col-sm-8">
                     <textarea value="{{model.supplier_address}}" [(ngModel)]="model.supplier_address"
-                        id="supplier_address" name="supplier_address" rows="2" placeholder="Entrer ..."
+                        id="supplier_address" name="supplier_address" rows="2" placeholder="Ingrese ..."
                         class="form-control"></textarea>
                 </div>
             </div>
             <div class="form-group"><label for="supplier_description" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Détails du fournisseur
+                            Detalles del proveedor
                         </font>
                     </font>
                 </label>
                 <div class="col-sm-8">
                     <textarea value="{{model.supplier_description}}" [(ngModel)]="model.supplier_description"
-                        id="supplier_description" name="supplier_description" rows="2" placeholder="Entrer ..."
+                        id="supplier_description" name="supplier_description" rows="2" placeholder="Ingrese ..."
                         class="form-control"></textarea>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                 <div class="col-sm-8 col-sm-offset-4">
                     <button type="button" class="btn btn-info" (click)="edit()">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Sauvegarder</font>
+                            <font style="vertical-align: inherit;">Respaldo</font>
                         </font>
                     </button>
                 </div>
