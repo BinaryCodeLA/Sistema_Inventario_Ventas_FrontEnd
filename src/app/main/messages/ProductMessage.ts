@@ -6,22 +6,22 @@ import { Injectable } from "@angular/core"
 export default class ProductMessage {
 
     confirmations = {
-        'title': 'confirmation', 
-        'add': 'Product has been added',
-        'edit': 'produit a été modifié avec succès',
-        'delete': 'Product has been removed'
+        'title': 'confirmación', 
+        'add': 'Producto ha sido agregado',
+        'edit': 'producto ha sido modificado con éxito',
+        'delete': 'Producto ha sido removido'
     }
     validations = {
-        "product_name": "Category name is required",
-        "category_id": "Category id required",
-        "supplier_id": "Supplier is required",
-        "product_unit": "Unit is required",
-        "product_alertquantity": "Quantity is required",
-        "product_supplierPrice": "Price is required",
-        "product_sellPrice": "Sell price is required",
-        "product_code": "Code is required",
-        "product_tax": "Tax is required",
-        "warehouse_id": "Warehouse is required",
+        "product_name": "Nombre de categoria es requerido",
+        "category_id": "id de Categoria es requerido",
+        "supplier_id": "Proveedor es requerido",
+        "product_unit": "Unidad es requerida",
+        "product_alertquantity": "Cantidad es requerida",
+        "product_supplierPrice": "Precio es requerido",
+        "product_sellPrice": "Precio de venta es requerido",
+        "product_code": "Código es requerido",
+        "product_tax": "Impuesto es requerido",
+        "warehouse_id": "Almacén es requerido",
         "product_details": "",
         "product_detailsforinvoice": ""
     }

@@ -6,21 +6,21 @@ import { Injectable } from "@angular/core"
 export default class EmployeeMessage {
 
     confirmations = {
-        'title': 'confirmation',
-        'add': 'Employee has been added',
-        'edit': 'employée a été modifié avec succès',
-        'delete': 'Employee has been removed'
+        'title': 'confirmacion',
+        'add': 'Empleado ha sido agregado',
+        'edit': 'empleado ha sido modificado con éxito',
+        'delete': 'Empleado ha sido removido'
     }
     validations = {
-          "employee_fname": "Name is required",
-        "employee_email": "Email is required",
-        "employee_phone": "Phone is required",
-        "employee_gender": "Gender is required",
+          "employee_fname": "Nombre es requerido",
+        "employee_email": "Correo es requerido",
+        "employee_phone": "Teléfono es requerido",
+        "employee_gender": "Género es requerido",
         "employee_nid": "",
-        "status_id": "Status is required",
-        "employee_birthday": "Bierthday is required",
-        "employee_address": "Address is required",
-        "employee_salary": "Salary is required"
+        "status_id": "Estado es requerido",
+        "employee_birthday": "Empleado es requerido",
+        "employee_address": "Correo es requerido",
+        "employee_salary": "Salario es requerido"
     }
 
     constructor() {

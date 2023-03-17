@@ -4,7 +4,7 @@
             <div class="form-group"><label for="income_paymentDate" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Date de paiement
+                            Fecha de pago
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
@@ -13,7 +13,7 @@
                     <div class="input-group date">
                         <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                         <input [(ngModel)]="model.income_paymentDate" type="date" value="{{model.income_paymentDate}}"
-                            name="income_paymentDate" id="income_paymentDate" placeholder="AAAA-MM-JJ"
+                            name="income_paymentDate" id="income_paymentDate" placeholder="AAAA-MM-DD"
                             class="form-control">
                     </div>
                     <!---->
@@ -22,7 +22,7 @@
             <div class="form-group"><label for="customer_id" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Nom du client
+                            Nombre del cliente
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
@@ -31,7 +31,7 @@
                     <select [(ngModel)]="model.customer_id" id="customer_id" name="customer_id" class="form-control">
                         <option value="">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Sélectionnez un client</font>
+                                <font style="vertical-align: inherit;">Seleccione un cliente</font>
                             </font>
                         </option>
                         <option value="10">
@@ -47,7 +47,7 @@
             <div class="form-group"><label for="income_paymentType" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Type de paiement
+                            Tipo de pago
                         </font>
                     </font>
                 </label>
@@ -56,22 +56,22 @@
                         id="income_paymentType" class="form-control">
                         <option value="">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Sélectionner le genre</font>
+                                <font style="vertical-align: inherit;">Seleccionar un género</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">En espèces</font>
+                                <font style="vertical-align: inherit;">En efectivo</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Vérifier</font>
+                                <font style="vertical-align: inherit;">Verificar</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Commande de paiement</font>
+                                <font style="vertical-align: inherit;">Orden de pago</font>
                             </font>
                         </option>
                     </select>
@@ -81,7 +81,7 @@
             <div class="form-group"><label for="income_paymentAccount" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Compte de paiement
+                            Comprobante de pago
                         </font>
                     </font>
                 </label>
@@ -90,22 +90,22 @@
                         id="income_paymentAccount" class="form-control">
                         <option value="">
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Sélectionnez un compte</font>
+                                <font style="vertical-align: inherit;">Seleccione un comprobante</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Utilitaire</font>
+                                <font style="vertical-align: inherit;">Utilidad</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Un service</font>
+                                <font style="vertical-align: inherit;">Servicio</font>
                             </font>
                         </option>
                         <option>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Actuel</font>
+                                <font style="vertical-align: inherit;">Actual</font>
                             </font>
                         </option>
                     </select>
@@ -117,14 +117,14 @@
             <div class="form-group"><label for="income_amount" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Montant
+                            Monto
                         </font>
                     </font><i aria-hidden="true" data-toggle="tooltip" data-placement="top" title=""
                         class="fa fa-asterisk text-danger require" data-original-title="Required"></i>
                 </label>
                 <div class="col-sm-8">
                     <input [(ngModel)]="model.income_amount" value="{{model.income_amount}}" type="number" min="0"
-                        max="10000000" step="any" name="income_amount" id="income_amount" placeholder="Montant"
+                        max="10000000" step="any" name="income_amount" id="income_amount" placeholder="Monto"
                         class="form-control">
                     <!---->
                 </div>
@@ -132,7 +132,7 @@
             <div class="form-group"><label for="income_details" class="col-sm-4 control-label">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">
-                            Détails du revenu
+                            Detalles del ingreso
                         </font>
                     </font>
                 </label>
@@ -149,7 +149,7 @@
                 <div class="col-sm-8 col-sm-offset-4">
                     <button (click)="edit()" type="button" class="btn btn-info">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">sauvegarder</font>
+                            <font style="vertical-align: inherit;">Guardar</font>
                         </font>
                     </button>
                 </div>

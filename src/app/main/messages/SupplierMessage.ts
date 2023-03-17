@@ -6,20 +6,20 @@ import { Injectable } from "@angular/core"
 export default class SupplierMessage {
 
     confirmations = {
-        'title': 'confirmation', 
-        'add': 'Supplier has been added',
-        'edit': 'fournisseur a été modifié avec succès',
-        'delete': 'Supplier has been removed'
+        'title': 'confirmación', 
+        'add': 'Proveedor ha sido agregado',
+        'edit': 'el proveedor ha sido modificado con éxito',
+        'delete': 'Proveedor ha sido removido'
     }
     validations = {
         "id": 1,
-        "supplier_name": "Supplier is required",
-        "supplier_phone": "Phone is required",
-        "supplier_email": "Email is required",
-        "supplier_company": "Company is required",
-        "supplier_address": "Address is required",
-        "status_id": "Status is required",
-        "supplier_description": "Description is required"
+        "supplier_name": "Proveedor es requerido",
+        "supplier_phone": "Teléfono es requerido",
+        "supplier_email": "Correo es requerido",
+        "supplier_company": "Compañia es requerida",
+        "supplier_address": "Dirección es requerida",
+        "status_id": "Estado es requerido",
+        "supplier_description": "Descripcion es requerida"
     }
 
     constructor() {

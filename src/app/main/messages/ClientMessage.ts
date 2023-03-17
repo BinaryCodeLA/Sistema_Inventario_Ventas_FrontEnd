@@ -6,19 +6,19 @@ import { Injectable } from "@angular/core"
 export default class ClientMessage {
 
     confirmations = {
-        'title': 'confirmation',
-        'add': 'Client has been added',
-        'edit': 'client a été modifié avec succès',
-        'delete': 'Client has been removed'
+        'title': 'confirmación',
+        'add': 'Cliente ha sido agregado',
+        'edit': 'cliente ha sido modificado con éxito',
+        'delete': 'Cliente ha sido removido'
     }
     validations = {
        
-        "customer_name": "Client is required", 
-        "customer_email": "Email is required",
-        "customer_phone": "Phone is required", 
-        "customer_address": "Address is required",
-        "status_id": "Status is required", 
-        "customer_description": "Description is required"
+        "customer_name": "Cliente es requerido", 
+        "customer_email": "Correo es requerido",
+        "customer_phone": "Teléfono es requerido", 
+        "customer_address": "Dirección es requerido",
+        "status_id": "Estado es requerido", 
+        "customer_description": "Descripción es requerido"
     
     }
 
